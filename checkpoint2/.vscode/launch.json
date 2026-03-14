@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:checkpoint2}",
+            "name": "Debug checkpoint2",
+            "target": "checkpoint2",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug checkpoint2"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:checkpoint2}",
+            "name": "Release checkpoint2",
+            "target": "checkpoint2",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release checkpoint2"
+        }
+    ]
+}

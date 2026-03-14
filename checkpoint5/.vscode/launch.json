@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:checkpoint5}",
+            "name": "Debug checkpoint5",
+            "target": "checkpoint5",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug checkpoint5"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:checkpoint5}",
+            "name": "Release checkpoint5",
+            "target": "checkpoint5",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release checkpoint5"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:stringTest}",
+            "name": "Debug stringTest",
+            "target": "stringTest",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug stringTest"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:stringTest}",
+            "name": "Release stringTest",
+            "target": "stringTest",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release stringTest"
+        }
+    ]
+}
